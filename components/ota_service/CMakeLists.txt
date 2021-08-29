@@ -6,7 +6,6 @@ set(COMPONENT_PRIV_REQUIRES esp_peripherals audio_pipeline audio_sal audio_strea
 
 set(COMPONENT_SRCS ./esp_fs_ota.c
                     ./ota_service.c
-                    ./ota_proc_default.c
-                    )
+                    ./ota_proc_default.c)
 
 register_component()
